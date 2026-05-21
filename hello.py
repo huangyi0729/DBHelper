@@ -1,1 +1,2 @@
-print("Hello,everyone!")
+s='123456'
+print(s)
