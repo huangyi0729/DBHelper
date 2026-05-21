@@ -1,1 +1,1 @@
-print("Happy everyday!")
+print("Hello,Git!")
