@@ -6,8 +6,8 @@ current_text = ""
 
 def load_from_file():
     """从文件 data.txt 加载文本，如果文件不存在则返回 None"""
-    if os.path.exists("../data.txt"):
-        with open("../data.txt", "r", encoding="utf-8") as f:
+    if os.path.exists("../上课练习/data.txt"):
+        with open("../上课练习/data.txt", "r", encoding="utf-8") as f:
             return f.read()
     else:
         return None
@@ -15,7 +15,7 @@ def load_from_file():
 
 def save_to_file(text):
     """将文本保存到 data.txt"""
-    with open("../data.txt", "w", encoding="utf-8") as f:
+    with open("../上课练习/data.txt", "w", encoding="utf-8") as f:
         f.write(text)
     print("已保存到 data.txt")
 
